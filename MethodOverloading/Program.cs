@@ -33,7 +33,7 @@
 
         static void Main(string[] args)
             {
-                Console.WriteLine(Add(0, 1, isCurrency: true));
+                Console.WriteLine(Add(1, 1, isCurrency: false));
             }
         }
     }
