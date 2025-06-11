@@ -2,7 +2,7 @@
 {
     public class Program
     {
-        
+
         public static int Add(int numOne, int numTwo)
         {
             return numOne + numTwo;
@@ -32,11 +32,13 @@
         }
 
         static void Main(string[] args)
-            {
-                Console.WriteLine(Add(1, 1, isCurrency: false));
-            }
+        {
+            Console.WriteLine(Add(1, 1));
+            Console.WriteLine(Add(1.5m, 2.5m));
+            Console.WriteLine(Add(0, 1, isCurrency: true));
         }
     }
+}
 
     
 
